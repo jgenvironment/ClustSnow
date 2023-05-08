@@ -209,7 +209,6 @@ writeRaster(hs_daily,paste0(dir_out,'\\hs_daily.tif'))
 
 is_continous <- all(seq.Date(as.Date(HS.synth$dates[1],format = date_format),as.Date(HS.synth$dates[nrow(HS.synth)],format = date_format),by='days')==
   as.Date(HS.synth$dates,format = date_format))
-  
 if(is_continous){
 
 rho.max=422
@@ -232,7 +231,7 @@ swe_daily <- create_Map(class_result = rf_raster,
 
 writeRaster(swe_daily,paste0(dir_out,'\\swe_daily.tif'))
 }
-
-else{
+if(!is_continous){
   print('No SWE data was derived as input is not continous.')
 }
+
