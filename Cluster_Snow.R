@@ -104,7 +104,7 @@ create_Map  <- function(class_result,clusterID_to_timeseriesID,timeseries){
     day <- date[i]
     sensors <- colnames(timeseries[-1])
     
-    data_snomos <-data.frame(t(timeseries[as.character(timeseries$dates)%in%as.character(day),]))
+    data_snomos <-data.frame(t(timeseries[as.POSIXlt(as.character(timeseries$dates),format=date_format,tz= "UTC")%in%as.character(day),]))
     data <- data_snomos[-1,]
     data_snomos <- data.frame(class_bez=sensors,data=data)
     
@@ -207,6 +207,11 @@ writeRaster(hs_daily,paste0(dir_out,'\\hs_daily.tif'))
 # Derive SWE.synth using delta.snow.model (Winkler et al. 2021)
 # Model Parameters
 
+is_continous <- all(seq.Date(as.Date(HS.synth$dates[1],format = date_format),as.Date(HS.synth$dates[nrow(HS.synth)],format = date_format),by='days')==
+  as.Date(HS.synth$dates,format = date_format))
+  
+if(is_continous){
+
 rho.max=422
 rho.null=134 
 c.ov=0.0005104722 
@@ -226,4 +231,8 @@ swe_daily <- create_Map(class_result = rf_raster,
 
 
 writeRaster(swe_daily,paste0(dir_out,'\\swe_daily.tif'))
+}
 
+else{
+  print('No SWE data was derived as input is not continous.')
+}
