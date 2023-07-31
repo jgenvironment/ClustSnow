@@ -1,6 +1,5 @@
-#####################
-#### cluster_snow ###
-#####################
+# cluster_snow
+
 
 Workflow presented in Geissler et al. (2023) to derive daily HS and SWE based on observations. SWE maps are only derived if the time series are continous and snow depth time series start with 0 m.
 Please mind the directory structure required.
@@ -30,9 +29,12 @@ Raster stack containing spatial maps of snow depth, acquired for instance with U
 Name: hs_raster_stack.tif
 
 ###############################################################################################
-##                              CloudCompare_CoregisterLiDAR.R                               ##
-## Co-Registration of LiDAR-derived point clouds using Cloud Compare Command Line Mode.      ##
-## Wrapper Script for running the workflow in Co-Registration Workflow in R.                 ##
-## Note: Directories, AOI and filtering thresholds need to be adapted to individual dataset. ##
-## More Info: Geissler et al. 2023                                                           ##
+#                              CloudCompare_CoregisterLiDAR.R
+Co-Registration of LiDAR-derived point clouds using Cloud Compare Command Line Mode.
+
+Wrapper Script for running the Co-Registration Workflow in R.
+
+Note: Directories, AOI and filtering thresholds need to be adapted to individual dataset.
+
+More Info: Geissler et al. 2023
 ###############################################################################################
