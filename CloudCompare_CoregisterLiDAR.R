@@ -1,6 +1,16 @@
-#################################################################################
-###Automatic Processing of LiDAR-Data in R via CloudCompare cmd line mode.###
-#################################################################################
+########################################################################################
+####### This script performs an automatic processing of LiDAR-Data in R           ######
+####### via CloudCompare command line mode.                                       ######
+####### This workflow is used and described in Geissler et al. (2023)             ######
+####### created by Joschka Geissler, 2023-08-03, Version: 1                       ######
+########################################################################################
+
+#--------------------------------------------------------------------------------------#
+# Note:
+# This script was not produced for direct applications to different datasets. 
+# All code fragments will have to be adapted to other datasets characteristics, 
+# naming conventions and attributes.
+#--------------------------------------------------------------------------------------#
 
 #Choose Folder containing LiDAR Point Cloud to Process
 dir <- choose.dir()
