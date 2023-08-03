@@ -34,7 +34,7 @@ Co-Registration of LiDAR-derived point clouds using Cloud Compare Command Line M
 
 Wrapper Script for running the Co-Registration Workflow in R.
 
-Note: Directories, AOI and filtering thresholds need to be adapted to individual dataset.
+Note: Directories, AOI and filtering thresholds need to be adapted to the individual dataset.
 
 More Info: Geissler et al. 2023
 ###############################################################################################
