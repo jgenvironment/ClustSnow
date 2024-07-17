@@ -1,4 +1,4 @@
-# cluster_snow
+# ClustSnow
 
 
 Workflow presented in Geissler et al. (2023) to derive daily HS and SWE based on observations. SWE maps are only derived if the time series are continous and snow depth time series start with 0 m.
