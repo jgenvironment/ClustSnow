@@ -33,20 +33,20 @@ Key steps include:
 - Ensure proper directory structure as required.
 
 
-└─── ClustSnow_Functions_v4.R
-└─── ClustSnow_v4.R
-└─── Data_ClustSnow
-    ├─── Input
-    │       hs_raster_stack.tif
-    │       hs_sensor_location.cpg
-    │       hs_sensor_location.dbf
-    │       hs_sensor_location.kml
-    │       hs_sensor_location.prj
-    │       hs_sensor_location.shp
-    │       hs_sensor_location.shx
-    │       hs_time_series.csv
-    │
-    └─── Output
+│─── ClustSnow_Functions_v4.R <br>
+│─── ClustSnow_v4.R <br>
+│─── Data_ClustSnow <br>
+│    ├─── Input <br>
+│    │       hs_raster_stack.tif <br>
+│    │       hs_sensor_location.cpg <br>
+│    │       hs_sensor_location.dbf <br>
+│    │       hs_sensor_location.kml <br>
+│    │       hs_sensor_location.prj <br>
+│    │       hs_sensor_location.shp <br>
+│    │       hs_sensor_location.shx <br>
+│    │       hs_time_series.csv <br>
+│    │ <br>
+│    └─── Output <br>
 
 ---
 
