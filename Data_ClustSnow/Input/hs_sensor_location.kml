@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="AL_SnoMoS" id="AL_SnoMoS">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="Bez" type="string"></SimpleField>
+	<SimpleField name="WY2020" type="string"></SimpleField>
+	<SimpleField name="WY2021" type="string"></SimpleField>
+	<SimpleField name="WY2022" type="string"></SimpleField>
+</Schema>
+<Folder><name>AL_SnoMoS</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">17</SimpleData>
+		<SimpleData name="Bez">AC1</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">F</SimpleData>
+		<SimpleData name="WY2022">F</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71342497748243,47.0489391814785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">1</SimpleData>
+		<SimpleData name="Bez">AC2</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71329315486555,47.0486756217272</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">2</SimpleData>
+		<SimpleData name="Bez">AC3</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71377967488535,47.048379485776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">3</SimpleData>
+		<SimpleData name="Bez">AC4</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71383342045637,47.0487134086824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">4</SimpleData>
+		<SimpleData name="Bez">AC5</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71396596242368,47.0493354595848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">5</SimpleData>
+		<SimpleData name="Bez">AD1</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71273959607589,47.04436295819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">6</SimpleData>
+		<SimpleData name="Bez">AD2</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71224993649558,47.0446709243236</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">7</SimpleData>
+		<SimpleData name="Bez">AD3</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71229884015365,47.0442918635819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">18</SimpleData>
+		<SimpleData name="Bez">AD4</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">F</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71301072282073,47.0439493916794</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">8</SimpleData>
+		<SimpleData name="Bez">AD5</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71358109287663,47.0441311445561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">9</SimpleData>
+		<SimpleData name="Bez">AD6</SimpleData>
+		<SimpleData name="WY2020">F</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71347540578499,47.0442474302867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">10</SimpleData>
+		<SimpleData name="Bez">AD7</SimpleData>
+		<SimpleData name="WY2020">F</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71421749071616,47.0437253530314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">11</SimpleData>
+		<SimpleData name="Bez">AD8</SimpleData>
+		<SimpleData name="WY2020">F</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71399039380888,47.0438782319891</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">23</SimpleData>
+		<SimpleData name="Bez">AD9</SimpleData>
+		<SimpleData name="WY2020">F</SimpleData>
+		<SimpleData name="WY2021">F</SimpleData>
+		<SimpleData name="WY2022">F</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71365806516091,47.0436217844108</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">12</SimpleData>
+		<SimpleData name="Bez">AM1</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71383554295502,47.0446831580852</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">13</SimpleData>
+		<SimpleData name="Bez">AM2</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71490199165315,47.044276223974</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">15</SimpleData>
+		<SimpleData name="Bez">AM5</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71513145589673,47.0435721245889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">19</SimpleData>
+		<SimpleData name="Bez">AM4</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">F</SimpleData>
+		<SimpleData name="WY2022">F</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71464938527522,47.043601403076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">14</SimpleData>
+		<SimpleData name="Bez">AM3</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71439468994613,47.0441306927813</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">20</SimpleData>
+		<SimpleData name="Bez">AO1</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">F</SimpleData>
+		<SimpleData name="WY2022">F</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71487505451605,47.0425793524473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">21</SimpleData>
+		<SimpleData name="Bez">AO2</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">F</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71468474843643,47.0428327319419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">16</SimpleData>
+		<SimpleData name="Bez">AO3</SimpleData>
+		<SimpleData name="WY2020">F</SimpleData>
+		<SimpleData name="WY2021">T</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71496112817138,47.0427162919303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AL_SnoMoS">
+		<SimpleData name="id">22</SimpleData>
+		<SimpleData name="Bez">AO4</SimpleData>
+		<SimpleData name="WY2020">T</SimpleData>
+		<SimpleData name="WY2021">F</SimpleData>
+		<SimpleData name="WY2022">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>8.71495362670188,47.0428412172162</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
