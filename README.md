@@ -32,6 +32,8 @@ Key steps include:
 - SWE maps are only derived if time series are continuous and snow depth time series start with **0 m**.
 - Ensure proper directory structure as required.
 
+![grafik](https://github.com/user-attachments/assets/3dcf3e9c-cc4f-403a-9266-fed0a239b212)
+
 ---
 
 ## Required Input Data and Format
@@ -49,6 +51,8 @@ Key steps include:
 ### 3. HS Maps
 - **Name**: `hs_raster_stack.tif`  
 - **Description**: Raster stack containing spatial maps of snow depth (e.g., UAV-based LiDAR).
+
+![grafik](https://github.com/user-attachments/assets/cea0f368-368f-42bd-913f-2db392cb0a45)
 
 ---
 
