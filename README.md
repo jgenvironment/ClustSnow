@@ -30,23 +30,9 @@ Key steps include:
 
 **Important Notes**:
 - SWE maps are only derived if time series are continuous and snow depth time series start with **0 m**.
-- Ensure proper directory structure as required.
+- Ensure proper directory structure as required:
 
-
-│─── ClustSnow_Functions_v4.R <br>
-│─── ClustSnow_v4.R <br>
-│─── Data_ClustSnow <br>
-│    ├─── Input <br>
-│    │       hs_raster_stack.tif <br>
-│    │       hs_sensor_location.cpg <br>
-│    │       hs_sensor_location.dbf <br>
-│    │       hs_sensor_location.kml <br>
-│    │       hs_sensor_location.prj <br>
-│    │       hs_sensor_location.shp <br>
-│    │       hs_sensor_location.shx <br>
-│    │       hs_time_series.csv <br>
-│    │ <br>
-│    └─── Output <br>
+![grafik](https://github.com/user-attachments/assets/779fbd69-f9ac-4b6e-985a-1b1cc8fc12b3)
 
 ---
 
